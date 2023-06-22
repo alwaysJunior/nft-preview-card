@@ -125,7 +125,13 @@ body {
     margin-left: 5px;
 }
 
+.creator span:hover,
+h3:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
 
-.price, .info, .creator span{
+
+.price, .info{
     cursor: pointer;
 }
